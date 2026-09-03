@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Pommel",
+			"from": [ 0.25, 0.17, 7.37 ],
+			"to": [ 1.068, 0.926, 8.126 ],
+			"rotationOrigin": [ 0.7, 0.4, 0.4 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		}
+	]}

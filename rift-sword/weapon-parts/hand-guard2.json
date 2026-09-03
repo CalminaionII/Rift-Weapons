@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Guard2",
+			"from": [ 4.06, 0.0, 6.79 ],
+			"to": [ 4.36, 1.048, 8.8148 ],
+			"rotationOrigin": [ 5.8872, -0.0011, 6.7912 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		}
+	]}

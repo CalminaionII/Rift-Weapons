@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "HandGuard3",
+			"from": [ 3.34, 0.0, 6.49 ],
+			"to": [ 4.36, 1.048, 6.79 ],
+			"rotationOrigin": [ 5.1872, -0.0011, 6.4912 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "HandGuard4",
+			"from": [ 1.74, 0.0, 6.49 ],
+			"to": [ 3.34, 1.048, 6.79 ],
+			"rotationOrigin": [ 3.5872, -0.0011, 6.4912 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "HandGuard5",
+			"from": [ 0.84, 0.2, 6.49 ],
+			"to": [ 1.74, 0.848, 6.79 ],
+			"rotationOrigin": [ 2.6872, 0.1989, 6.4912 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "HandGuard6",
+			"from": [ 0.44, 0.2, 6.49 ],
+			"to": [ 0.84, 0.848, 7.39 ],
+			"rotationOrigin": [ 2.2872, 0.1989, 6.4912 ],
+			"faces": {
+				"north": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"east": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"south": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"west": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"up": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#handlemetal", "uv": [ 2.0, 0.0, 0.0, 2.0 ], "autoUv": false }
+			}
+		}
+	]}
