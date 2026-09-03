@@ -1,0 +1,24 @@
+[
+    {
+        "code": "riftweapons:blade-head-crude-copper",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "copper"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "   ############"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-crude-copper"
+        }
+    }
+]

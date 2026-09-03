@@ -1,0 +1,16 @@
+[
+    {
+        "file": "purposefulstorage:config/restrictions/weapons/swordplaque.json",
+        "op": "addmerge",
+        "path": "/CollectibleCodes",
+        "value": [ "rift-weapons:rift-sword-*" ],
+        "dependsOn": [ { "modid": "purposefulstorage" } ]
+    },
+    {
+        "file": "purposefulstorage:config/restrictions/weapons/swordpedestal.json",
+        "op": "addmerge",
+        "path": "/CollectibleCodes",
+        "value": [ "rift-weapons:rift-sword-*" ],
+        "dependsOn": [ { "modid": "purposefulstorage" } ]
+    }
+]

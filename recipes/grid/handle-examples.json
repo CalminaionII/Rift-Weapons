@@ -1,0 +1,2750 @@
+[
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-copper-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-copper-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-copper-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-copper-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-copper-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-copper-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-blackbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-blackbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-blackbronze-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-blackbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-blackbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-blackbronze-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-bismuthbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-bismuthbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-bismuthbronze-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-bismuthbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-bismuthbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-bismuthbronze-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-tinbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-tinbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-tinbronze-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-tinbronze-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-tinbronze-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-tinbronze-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-iron-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-iron-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-iron-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-iron-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-iron-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-iron-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-steel-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-steel-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-steel-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-steel-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-steel-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-steel-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-meteoriciron-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-meteoriciron-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-meteoriciron-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-meteoriciron-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-meteoriciron-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-meteoriciron-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-silver-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "silver",
+                        "handlemetal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-silver-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "silver",
+                        "handlemetal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-silver-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-silver-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "silver",
+                        "handlemetal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-silver-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "silver",
+                        "handlemetal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-silver-leather"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-basic-gold-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "gold",
+                        "handlemetal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-gold-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "gold",
+                        "handlemetal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-basic-gold-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguardcomplete",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-fit-advanced-gold-oak"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "gold",
+                        "handlemetal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-gold-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "gold",
+                        "handlemetal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:example-rewrap-advanced-gold-leather"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-fit-basic-copper-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-rewrap-basic-copper-cloth"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-rewrap-basic-copper-leather"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-fit-advanced-copper-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-rewrap-advanced-copper-cloth"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:nugget-nativecopper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "metal": "copper",
+                    "handlemetal": "copper",
+                    "gem": "nativecopper"
+                }
+            }
+        },
+        "name": "riftweapons:example-gem-rewrap-advanced-copper-leather"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "base",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            }
+        },
+        "name": "riftweapons:example-wrap-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-orange"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "base",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "orange"
+                }
+            }
+        },
+        "name": "riftweapons:example-wrap-crude-leather-orange"
+    }
+]

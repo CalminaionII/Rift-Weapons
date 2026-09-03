@@ -1,0 +1,271 @@
+{
+    "code": "flatguard",
+    "type": "item",
+    "maxStackSize": 8,
+    "shape": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/flat-guard2"
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/flat-guard2-inv"
+    },
+    "textures": {
+        "handlemetal": {
+            "base": "game:block/metal/ingot/copper"
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "quadrants",
+                "rotation": true,
+                "wallOffYByType": {
+                    "*": 1
+                },
+                "ctrlKey": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        },
+        {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "shape": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/flat-guard2"
+                    }
+                },
+                "textures": {
+                    "metal-*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        }
+                    },
+                    "*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        }
+                    }
+                },
+                "name": {
+                    "metal-*": [
+                        "material-{metal}",
+                        " Flat Guard"
+                    ]
+                },
+                "shapeInventory": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/flat-guard2-inv"
+                    }
+                }
+            }
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -30,
+                "y": 120,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.8,
+                "y": 0.45,
+                "z": 0.8
+            },
+            "scale": 6
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.8,
+                "y": -0.86,
+                "z": -0.33
+            },
+            "rotation": {
+                "x": 180,
+                "y": 0,
+                "z": -3
+            },
+            "scale": 1.2
+        }
+    },
+    "attributes": {
+        "groundStorageTransformByType": {
+            "*": {
+                "translation": {
+                    "x": 0.54,
+                    "y": 0,
+                    "z": 0.1
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.5
+            }
+        },
+        "onTongTransformByType": {
+            "*": {
+                "translation": {
+                    "x": -0.72,
+                    "y": -0.05,
+                    "z": -0.8
+                },
+                "rotation": {
+                    "x": -1,
+                    "y": -90,
+                    "z": 0
+                },
+                "scale": 1.2
+            }
+        },
+        "renderHeld": false,
+        "shape": {
+            "*": {
+                "base": "rift-weapons:item/rift-sword/weapon-parts/flat-guard2"
+            }
+        },
+        "textures": {
+            "metal-*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                }
+            },
+            "*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                }
+            }
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0.62,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 6
+        }
+    },
+    "creativeInventoryStacksByType": {
+        "*": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "silver"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "flatguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "gold"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

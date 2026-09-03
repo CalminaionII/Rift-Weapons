@@ -1,0 +1,46 @@
+{
+    "ingredientPattern": "B,A",
+    "width": 1,
+    "height": 2,
+    "ingredients": {
+        "A": {
+            "type": "block",
+            "code": "game:debarkedlog-*-ud",
+            "name": "wood",
+            "allowedVariants": [
+                "acacia",
+                "baldcypress",
+                "birch",
+                "ebony",
+                "kapok",
+                "larch",
+                "maple",
+                "oak",
+                "pine",
+                "purpleheart",
+                "redwood",
+                "walnut"
+            ]
+        },
+        "B": {
+            "type": "item",
+            "code": "game:saw-*",
+            "isTool": true,
+            "toolDurabilityCost": 10
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "rift-weapons:handle",
+        "quantity": 4,
+        "attributes": {
+            "types": {
+                "tier": "base",
+                "handletier": "crude",
+                "grip": "wood",
+                "wood": "{wood}"
+            }
+        }
+    },
+    "name": "riftweapons:handle-blank"
+}

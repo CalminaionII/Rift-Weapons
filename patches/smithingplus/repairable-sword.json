@@ -1,0 +1,35 @@
+[
+    {
+        "op": "add",
+        "file": "rift-weapons:itemtypes/rift-sword/weapon/rift-sword.json",
+        "path": "/behaviors/-",
+        "value": {
+            "name": "smithingplus:RepairableTool"
+        },
+        "dependsOn": [
+            {
+                "modid": "smithingplus"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "file": "rift-weapons:itemtypes/rift-sword/weapon/rift-sword.json",
+        "path": "/attributes/metalMaterialByType",
+        "value": {
+            "*-copper": "copper",
+            "*-blackbronze": "blackbronze",
+            "*-bismuthbronze": "bismuthbronze",
+            "*-tinbronze": "tinbronze",
+            "*-iron": "iron",
+            "*-steel": "steel",
+            "*-meteoriciron": "meteoriciron",
+            "*": "copper"
+        },
+        "dependsOn": [
+            {
+                "modid": "smithingplus"
+            }
+        ]
+    }
+]

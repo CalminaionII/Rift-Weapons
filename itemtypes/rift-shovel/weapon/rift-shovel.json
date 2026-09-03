@@ -1,0 +1,3272 @@
+{
+    "code": "rift-shovel",
+    "variantgroups": [
+        {
+            "code": "metal",
+            "states": [
+                "copper",
+                "blackbronze",
+                "bismuthbronze",
+                "tinbronze",
+                "iron",
+                "steel",
+                "meteoriciron"
+            ]
+        }
+    ],
+    "tags": [
+        "tool",
+        "tool-shovel"
+    ],
+    "damagedby": [
+        "blockbreaking",
+        "attacking"
+    ],
+    "tool": "shovel",
+    "heldTpIdleAnimation": "shovelidle",
+    "heldTpHitAnimation": "shoveldig",
+    "maxStackSize": 1,
+    "durability": 400,
+    "miningmaterial": [
+        "soil",
+        "sand",
+        "gravel",
+        "snow"
+    ],
+    "miningspeedbytype": {
+        "rift-shovel-copper": {
+            "soil": 4,
+            "sand": 4,
+            "gravel": 2.6,
+            "snow": 2.6
+        },
+        "rift-shovel-blackbronze": {
+            "soil": 5.5,
+            "sand": 5.5,
+            "gravel": 3.7,
+            "snow": 3.7
+        },
+        "rift-shovel-bismuthbronze": {
+            "soil": 5,
+            "sand": 5,
+            "gravel": 3.2,
+            "snow": 3.2
+        },
+        "rift-shovel-tinbronze": {
+            "soil": 5.4,
+            "sand": 5.4,
+            "gravel": 3.6,
+            "snow": 3.6
+        },
+        "rift-shovel-iron": {
+            "soil": 6,
+            "sand": 6,
+            "gravel": 4,
+            "snow": 4
+        },
+        "rift-shovel-steel": {
+            "soil": 7,
+            "sand": 7,
+            "gravel": 4.4,
+            "snow": 4.4
+        },
+        "rift-shovel-meteoriciron": {
+            "soil": 6.5,
+            "sand": 6.5,
+            "gravel": 4.2,
+            "snow": 4.2
+        }
+    },
+    "shape": {
+        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+        "selectiveElements": [
+            "shovel-head/*",
+            "grip-wood/*"
+        ]
+    },
+    "textures": {
+        "metal": {
+            "base": "game:block/metal/ingot/{metal}"
+        },
+        "wood": {
+            "base": "game:block/wood/debarked/oak"
+        },
+        "cloth": {
+            "base": "game:block/cloth/linen/plain"
+        },
+        "leather": {
+            "base": "game:block/leather/plain"
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Halves",
+                "rotation": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                }
+            }
+        },
+        {
+            "name": "riftweapons.RiftWeapon"
+        },
+        {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "shape": {
+                    "grip-wood": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-wood/*"
+                        ]
+                    },
+                    "grip-cloth": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-cloth/*"
+                        ]
+                    },
+                    "grip-leather": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-leather/*"
+                        ]
+                    },
+                    "*": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-wood/*"
+                        ]
+                    }
+                },
+                "textures": {
+                    "metal-*::handlemetal-*::grip-wood::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-wood::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-wood::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-wood::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-wood::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-wood": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-wood::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-wood": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-cloth::wood-*::cloth-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-cloth::cloth-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-cloth::wood-*::cloth-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-cloth::cloth-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-cloth::wood-*::cloth-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-cloth::cloth-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-cloth::wood-*::cloth-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-cloth::cloth-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-cloth::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-cloth::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-cloth::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-cloth": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-cloth::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-cloth::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-leather::wood-*::leather-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-leather::leather-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-leather::wood-*::leather-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::handlemetal-*::grip-leather::leather-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{handlemetal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-leather::wood-*::leather-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-leather::leather-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-leather::wood-*::leather-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-leather::leather-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "metal-*::grip-leather::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-leather::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "metal-*::grip-leather::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "metal-*::grip-leather": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-leather::wood-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-leather::wood-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        }
+                    },
+                    "*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    }
+                },
+                "name": {
+                    "*": [
+                        "material-{metal}",
+                        " Shovel"
+                    ]
+                },
+                "durability": {
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-copper": 480,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-blackbronze": 570,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-bismuthbronze": 560,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-tinbronze": 540,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-iron": 620,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-steel": 925,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-meteoriciron": 725,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-silver": 925,
+                    "metal-copper::grip-wood::handletier-basic::handlemetal-gold": 925,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-copper": 500,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-blackbronze": 615,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 600,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-tinbronze": 575,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-iron": 680,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-steel": 1055,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-meteoriciron": 805,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-silver": 1055,
+                    "metal-copper::grip-wood::handletier-advanced::handlemetal-gold": 1055,
+                    "metal-copper::grip-wood::handlemetal-copper": 480,
+                    "metal-copper::grip-wood::handlemetal-blackbronze": 570,
+                    "metal-copper::grip-wood::handlemetal-bismuthbronze": 560,
+                    "metal-copper::grip-wood::handlemetal-tinbronze": 540,
+                    "metal-copper::grip-wood::handlemetal-iron": 620,
+                    "metal-copper::grip-wood::handlemetal-steel": 925,
+                    "metal-copper::grip-wood::handlemetal-meteoriciron": 725,
+                    "metal-copper::grip-wood::handlemetal-silver": 925,
+                    "metal-copper::grip-wood::handlemetal-gold": 925,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-copper": 505,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-blackbronze": 595,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 585,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-tinbronze": 565,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-iron": 645,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-steel": 950,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-meteoriciron": 750,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-silver": 950,
+                    "metal-copper::grip-cloth::handletier-basic::handlemetal-gold": 950,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-copper": 525,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-blackbronze": 640,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 625,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-tinbronze": 600,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-iron": 705,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-steel": 1080,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 830,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-silver": 1080,
+                    "metal-copper::grip-cloth::handletier-advanced::handlemetal-gold": 1080,
+                    "metal-copper::grip-cloth::handlemetal-copper": 505,
+                    "metal-copper::grip-cloth::handlemetal-blackbronze": 595,
+                    "metal-copper::grip-cloth::handlemetal-bismuthbronze": 585,
+                    "metal-copper::grip-cloth::handlemetal-tinbronze": 565,
+                    "metal-copper::grip-cloth::handlemetal-iron": 645,
+                    "metal-copper::grip-cloth::handlemetal-steel": 950,
+                    "metal-copper::grip-cloth::handlemetal-meteoriciron": 750,
+                    "metal-copper::grip-cloth::handlemetal-silver": 950,
+                    "metal-copper::grip-cloth::handlemetal-gold": 950,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-copper": 530,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-blackbronze": 620,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-bismuthbronze": 610,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-tinbronze": 590,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-iron": 670,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-steel": 975,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-meteoriciron": 775,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-silver": 975,
+                    "metal-copper::grip-leather::handletier-basic::handlemetal-gold": 975,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-copper": 550,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-blackbronze": 665,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 650,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-tinbronze": 625,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-iron": 730,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-steel": 1105,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-meteoriciron": 855,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-silver": 1105,
+                    "metal-copper::grip-leather::handletier-advanced::handlemetal-gold": 1105,
+                    "metal-copper::grip-leather::handlemetal-copper": 530,
+                    "metal-copper::grip-leather::handlemetal-blackbronze": 620,
+                    "metal-copper::grip-leather::handlemetal-bismuthbronze": 610,
+                    "metal-copper::grip-leather::handlemetal-tinbronze": 590,
+                    "metal-copper::grip-leather::handlemetal-iron": 670,
+                    "metal-copper::grip-leather::handlemetal-steel": 975,
+                    "metal-copper::grip-leather::handlemetal-meteoriciron": 775,
+                    "metal-copper::grip-leather::handlemetal-silver": 975,
+                    "metal-copper::grip-leather::handlemetal-gold": 975,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-copper": 680,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 770,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 760,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 740,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-iron": 820,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-steel": 1125,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 925,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-silver": 1125,
+                    "metal-tinbronze::grip-wood::handletier-basic::handlemetal-gold": 1125,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-copper": 700,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 815,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 800,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 775,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-iron": 880,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-steel": 1255,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1005,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-silver": 1255,
+                    "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-gold": 1255,
+                    "metal-tinbronze::grip-wood::handlemetal-copper": 680,
+                    "metal-tinbronze::grip-wood::handlemetal-blackbronze": 770,
+                    "metal-tinbronze::grip-wood::handlemetal-bismuthbronze": 760,
+                    "metal-tinbronze::grip-wood::handlemetal-tinbronze": 740,
+                    "metal-tinbronze::grip-wood::handlemetal-iron": 820,
+                    "metal-tinbronze::grip-wood::handlemetal-steel": 1125,
+                    "metal-tinbronze::grip-wood::handlemetal-meteoriciron": 925,
+                    "metal-tinbronze::grip-wood::handlemetal-silver": 1125,
+                    "metal-tinbronze::grip-wood::handlemetal-gold": 1125,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-copper": 705,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 795,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 785,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 765,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-iron": 845,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-steel": 1150,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 950,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-silver": 1150,
+                    "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-gold": 1150,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-copper": 725,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 840,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 825,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 800,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-iron": 905,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1280,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1030,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1280,
+                    "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1280,
+                    "metal-tinbronze::grip-cloth::handlemetal-copper": 705,
+                    "metal-tinbronze::grip-cloth::handlemetal-blackbronze": 795,
+                    "metal-tinbronze::grip-cloth::handlemetal-bismuthbronze": 785,
+                    "metal-tinbronze::grip-cloth::handlemetal-tinbronze": 765,
+                    "metal-tinbronze::grip-cloth::handlemetal-iron": 845,
+                    "metal-tinbronze::grip-cloth::handlemetal-steel": 1150,
+                    "metal-tinbronze::grip-cloth::handlemetal-meteoriciron": 950,
+                    "metal-tinbronze::grip-cloth::handlemetal-silver": 1150,
+                    "metal-tinbronze::grip-cloth::handlemetal-gold": 1150,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-copper": 730,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 820,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 810,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 790,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-iron": 870,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-steel": 1175,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 975,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-silver": 1175,
+                    "metal-tinbronze::grip-leather::handletier-basic::handlemetal-gold": 1175,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-copper": 750,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 865,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 850,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 825,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-iron": 930,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-steel": 1305,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1055,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-silver": 1305,
+                    "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-gold": 1305,
+                    "metal-tinbronze::grip-leather::handlemetal-copper": 730,
+                    "metal-tinbronze::grip-leather::handlemetal-blackbronze": 820,
+                    "metal-tinbronze::grip-leather::handlemetal-bismuthbronze": 810,
+                    "metal-tinbronze::grip-leather::handlemetal-tinbronze": 790,
+                    "metal-tinbronze::grip-leather::handlemetal-iron": 870,
+                    "metal-tinbronze::grip-leather::handlemetal-steel": 1175,
+                    "metal-tinbronze::grip-leather::handlemetal-meteoriciron": 975,
+                    "metal-tinbronze::grip-leather::handlemetal-silver": 1175,
+                    "metal-tinbronze::grip-leather::handlemetal-gold": 1175,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-copper": 730,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 820,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 810,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 790,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-iron": 870,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-steel": 1175,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 975,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-silver": 1175,
+                    "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-gold": 1175,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-copper": 750,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 865,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 850,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 825,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-iron": 930,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-steel": 1305,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1055,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-silver": 1305,
+                    "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-gold": 1305,
+                    "metal-bismuthbronze::grip-wood::handlemetal-copper": 730,
+                    "metal-bismuthbronze::grip-wood::handlemetal-blackbronze": 820,
+                    "metal-bismuthbronze::grip-wood::handlemetal-bismuthbronze": 810,
+                    "metal-bismuthbronze::grip-wood::handlemetal-tinbronze": 790,
+                    "metal-bismuthbronze::grip-wood::handlemetal-iron": 870,
+                    "metal-bismuthbronze::grip-wood::handlemetal-steel": 1175,
+                    "metal-bismuthbronze::grip-wood::handlemetal-meteoriciron": 975,
+                    "metal-bismuthbronze::grip-wood::handlemetal-silver": 1175,
+                    "metal-bismuthbronze::grip-wood::handlemetal-gold": 1175,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-copper": 755,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 845,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 835,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 815,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-iron": 895,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-steel": 1200,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1000,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-silver": 1200,
+                    "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-gold": 1200,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-copper": 775,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 890,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 875,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 850,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-iron": 955,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1330,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1080,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1330,
+                    "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1330,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-copper": 755,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-blackbronze": 845,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-bismuthbronze": 835,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-tinbronze": 815,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-iron": 895,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-steel": 1200,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-meteoriciron": 1000,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-silver": 1200,
+                    "metal-bismuthbronze::grip-cloth::handlemetal-gold": 1200,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-copper": 780,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 870,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 860,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 840,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-iron": 920,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-steel": 1225,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 1025,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-silver": 1225,
+                    "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-gold": 1225,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-copper": 800,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 915,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 900,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 875,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-iron": 980,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-steel": 1355,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1105,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-silver": 1355,
+                    "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-gold": 1355,
+                    "metal-bismuthbronze::grip-leather::handlemetal-copper": 780,
+                    "metal-bismuthbronze::grip-leather::handlemetal-blackbronze": 870,
+                    "metal-bismuthbronze::grip-leather::handlemetal-bismuthbronze": 860,
+                    "metal-bismuthbronze::grip-leather::handlemetal-tinbronze": 840,
+                    "metal-bismuthbronze::grip-leather::handlemetal-iron": 920,
+                    "metal-bismuthbronze::grip-leather::handlemetal-steel": 1225,
+                    "metal-bismuthbronze::grip-leather::handlemetal-meteoriciron": 1025,
+                    "metal-bismuthbronze::grip-leather::handlemetal-silver": 1225,
+                    "metal-bismuthbronze::grip-leather::handlemetal-gold": 1225,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-copper": 780,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 870,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 860,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 840,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-iron": 920,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-steel": 1225,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 1025,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-silver": 1225,
+                    "metal-blackbronze::grip-wood::handletier-basic::handlemetal-gold": 1225,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-copper": 800,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 915,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 900,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 875,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-iron": 980,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-steel": 1355,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1105,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-silver": 1355,
+                    "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-gold": 1355,
+                    "metal-blackbronze::grip-wood::handlemetal-copper": 780,
+                    "metal-blackbronze::grip-wood::handlemetal-blackbronze": 870,
+                    "metal-blackbronze::grip-wood::handlemetal-bismuthbronze": 860,
+                    "metal-blackbronze::grip-wood::handlemetal-tinbronze": 840,
+                    "metal-blackbronze::grip-wood::handlemetal-iron": 920,
+                    "metal-blackbronze::grip-wood::handlemetal-steel": 1225,
+                    "metal-blackbronze::grip-wood::handlemetal-meteoriciron": 1025,
+                    "metal-blackbronze::grip-wood::handlemetal-silver": 1225,
+                    "metal-blackbronze::grip-wood::handlemetal-gold": 1225,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-copper": 805,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 895,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 885,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 865,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-iron": 945,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-steel": 1250,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1050,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-silver": 1250,
+                    "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-gold": 1250,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-copper": 825,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 940,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 925,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 900,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-iron": 1005,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1380,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1130,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1380,
+                    "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1380,
+                    "metal-blackbronze::grip-cloth::handlemetal-copper": 805,
+                    "metal-blackbronze::grip-cloth::handlemetal-blackbronze": 895,
+                    "metal-blackbronze::grip-cloth::handlemetal-bismuthbronze": 885,
+                    "metal-blackbronze::grip-cloth::handlemetal-tinbronze": 865,
+                    "metal-blackbronze::grip-cloth::handlemetal-iron": 945,
+                    "metal-blackbronze::grip-cloth::handlemetal-steel": 1250,
+                    "metal-blackbronze::grip-cloth::handlemetal-meteoriciron": 1050,
+                    "metal-blackbronze::grip-cloth::handlemetal-silver": 1250,
+                    "metal-blackbronze::grip-cloth::handlemetal-gold": 1250,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-copper": 830,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 920,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 910,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 890,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-iron": 970,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-steel": 1275,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 1075,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-silver": 1275,
+                    "metal-blackbronze::grip-leather::handletier-basic::handlemetal-gold": 1275,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-copper": 850,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 965,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 950,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 925,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-iron": 1030,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-steel": 1405,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1155,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-silver": 1405,
+                    "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-gold": 1405,
+                    "metal-blackbronze::grip-leather::handlemetal-copper": 830,
+                    "metal-blackbronze::grip-leather::handlemetal-blackbronze": 920,
+                    "metal-blackbronze::grip-leather::handlemetal-bismuthbronze": 910,
+                    "metal-blackbronze::grip-leather::handlemetal-tinbronze": 890,
+                    "metal-blackbronze::grip-leather::handlemetal-iron": 970,
+                    "metal-blackbronze::grip-leather::handlemetal-steel": 1275,
+                    "metal-blackbronze::grip-leather::handlemetal-meteoriciron": 1075,
+                    "metal-blackbronze::grip-leather::handlemetal-silver": 1275,
+                    "metal-blackbronze::grip-leather::handlemetal-gold": 1275,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-copper": 1280,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-blackbronze": 1370,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-bismuthbronze": 1360,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-tinbronze": 1340,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-iron": 1420,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-steel": 1725,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-meteoriciron": 1525,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-silver": 1725,
+                    "metal-iron::grip-wood::handletier-basic::handlemetal-gold": 1725,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-copper": 1300,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-blackbronze": 1415,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 1400,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-tinbronze": 1375,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-iron": 1480,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-steel": 1855,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1605,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-silver": 1855,
+                    "metal-iron::grip-wood::handletier-advanced::handlemetal-gold": 1855,
+                    "metal-iron::grip-wood::handlemetal-copper": 1280,
+                    "metal-iron::grip-wood::handlemetal-blackbronze": 1370,
+                    "metal-iron::grip-wood::handlemetal-bismuthbronze": 1360,
+                    "metal-iron::grip-wood::handlemetal-tinbronze": 1340,
+                    "metal-iron::grip-wood::handlemetal-iron": 1420,
+                    "metal-iron::grip-wood::handlemetal-steel": 1725,
+                    "metal-iron::grip-wood::handlemetal-meteoriciron": 1525,
+                    "metal-iron::grip-wood::handlemetal-silver": 1725,
+                    "metal-iron::grip-wood::handlemetal-gold": 1725,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-copper": 1305,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-blackbronze": 1395,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 1385,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-tinbronze": 1365,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-iron": 1445,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-steel": 1750,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1550,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-silver": 1750,
+                    "metal-iron::grip-cloth::handletier-basic::handlemetal-gold": 1750,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-copper": 1325,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-blackbronze": 1440,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 1425,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-tinbronze": 1400,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-iron": 1505,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-steel": 1880,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1630,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-silver": 1880,
+                    "metal-iron::grip-cloth::handletier-advanced::handlemetal-gold": 1880,
+                    "metal-iron::grip-cloth::handlemetal-copper": 1305,
+                    "metal-iron::grip-cloth::handlemetal-blackbronze": 1395,
+                    "metal-iron::grip-cloth::handlemetal-bismuthbronze": 1385,
+                    "metal-iron::grip-cloth::handlemetal-tinbronze": 1365,
+                    "metal-iron::grip-cloth::handlemetal-iron": 1445,
+                    "metal-iron::grip-cloth::handlemetal-steel": 1750,
+                    "metal-iron::grip-cloth::handlemetal-meteoriciron": 1550,
+                    "metal-iron::grip-cloth::handlemetal-silver": 1750,
+                    "metal-iron::grip-cloth::handlemetal-gold": 1750,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-copper": 1330,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-blackbronze": 1420,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-bismuthbronze": 1410,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-tinbronze": 1390,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-iron": 1470,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-steel": 1775,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-meteoriciron": 1575,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-silver": 1775,
+                    "metal-iron::grip-leather::handletier-basic::handlemetal-gold": 1775,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-copper": 1350,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-blackbronze": 1465,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 1450,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-tinbronze": 1425,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-iron": 1530,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-steel": 1905,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1655,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-silver": 1905,
+                    "metal-iron::grip-leather::handletier-advanced::handlemetal-gold": 1905,
+                    "metal-iron::grip-leather::handlemetal-copper": 1330,
+                    "metal-iron::grip-leather::handlemetal-blackbronze": 1420,
+                    "metal-iron::grip-leather::handlemetal-bismuthbronze": 1410,
+                    "metal-iron::grip-leather::handlemetal-tinbronze": 1390,
+                    "metal-iron::grip-leather::handlemetal-iron": 1470,
+                    "metal-iron::grip-leather::handlemetal-steel": 1775,
+                    "metal-iron::grip-leather::handlemetal-meteoriciron": 1575,
+                    "metal-iron::grip-leather::handlemetal-silver": 1775,
+                    "metal-iron::grip-leather::handlemetal-gold": 1775,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-copper": 1480,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-blackbronze": 1570,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-bismuthbronze": 1560,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-tinbronze": 1540,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-iron": 1620,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-steel": 1925,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-meteoriciron": 1725,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-silver": 1925,
+                    "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-gold": 1925,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-copper": 1500,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-blackbronze": 1615,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 1600,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-tinbronze": 1575,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-iron": 1680,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-steel": 2055,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1805,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-silver": 2055,
+                    "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-gold": 2055,
+                    "metal-meteoriciron::grip-wood::handlemetal-copper": 1480,
+                    "metal-meteoriciron::grip-wood::handlemetal-blackbronze": 1570,
+                    "metal-meteoriciron::grip-wood::handlemetal-bismuthbronze": 1560,
+                    "metal-meteoriciron::grip-wood::handlemetal-tinbronze": 1540,
+                    "metal-meteoriciron::grip-wood::handlemetal-iron": 1620,
+                    "metal-meteoriciron::grip-wood::handlemetal-steel": 1925,
+                    "metal-meteoriciron::grip-wood::handlemetal-meteoriciron": 1725,
+                    "metal-meteoriciron::grip-wood::handlemetal-silver": 1925,
+                    "metal-meteoriciron::grip-wood::handlemetal-gold": 1925,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-copper": 1505,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-blackbronze": 1595,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 1585,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-tinbronze": 1565,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-iron": 1645,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-steel": 1950,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1750,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-silver": 1950,
+                    "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-gold": 1950,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-copper": 1525,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-blackbronze": 1640,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 1625,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-tinbronze": 1600,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-iron": 1705,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-steel": 2080,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1830,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-silver": 2080,
+                    "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-gold": 2080,
+                    "metal-meteoriciron::grip-cloth::handlemetal-copper": 1505,
+                    "metal-meteoriciron::grip-cloth::handlemetal-blackbronze": 1595,
+                    "metal-meteoriciron::grip-cloth::handlemetal-bismuthbronze": 1585,
+                    "metal-meteoriciron::grip-cloth::handlemetal-tinbronze": 1565,
+                    "metal-meteoriciron::grip-cloth::handlemetal-iron": 1645,
+                    "metal-meteoriciron::grip-cloth::handlemetal-steel": 1950,
+                    "metal-meteoriciron::grip-cloth::handlemetal-meteoriciron": 1750,
+                    "metal-meteoriciron::grip-cloth::handlemetal-silver": 1950,
+                    "metal-meteoriciron::grip-cloth::handlemetal-gold": 1950,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-copper": 1530,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-blackbronze": 1620,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-bismuthbronze": 1610,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-tinbronze": 1590,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-iron": 1670,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-steel": 1975,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-meteoriciron": 1775,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-silver": 1975,
+                    "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-gold": 1975,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-copper": 1550,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-blackbronze": 1665,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 1650,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-tinbronze": 1625,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-iron": 1730,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-steel": 2105,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1855,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-silver": 2105,
+                    "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-gold": 2105,
+                    "metal-meteoriciron::grip-leather::handlemetal-copper": 1530,
+                    "metal-meteoriciron::grip-leather::handlemetal-blackbronze": 1620,
+                    "metal-meteoriciron::grip-leather::handlemetal-bismuthbronze": 1610,
+                    "metal-meteoriciron::grip-leather::handlemetal-tinbronze": 1590,
+                    "metal-meteoriciron::grip-leather::handlemetal-iron": 1670,
+                    "metal-meteoriciron::grip-leather::handlemetal-steel": 1975,
+                    "metal-meteoriciron::grip-leather::handlemetal-meteoriciron": 1775,
+                    "metal-meteoriciron::grip-leather::handlemetal-silver": 1975,
+                    "metal-meteoriciron::grip-leather::handlemetal-gold": 1975,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-copper": 3080,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-blackbronze": 3170,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-bismuthbronze": 3160,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-tinbronze": 3140,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-iron": 3220,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-steel": 3525,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-meteoriciron": 3325,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-silver": 3525,
+                    "metal-steel::grip-wood::handletier-basic::handlemetal-gold": 3525,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-copper": 3100,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-blackbronze": 3215,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 3200,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-tinbronze": 3175,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-iron": 3280,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-steel": 3655,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-meteoriciron": 3405,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-silver": 3655,
+                    "metal-steel::grip-wood::handletier-advanced::handlemetal-gold": 3655,
+                    "metal-steel::grip-wood::handlemetal-copper": 3080,
+                    "metal-steel::grip-wood::handlemetal-blackbronze": 3170,
+                    "metal-steel::grip-wood::handlemetal-bismuthbronze": 3160,
+                    "metal-steel::grip-wood::handlemetal-tinbronze": 3140,
+                    "metal-steel::grip-wood::handlemetal-iron": 3220,
+                    "metal-steel::grip-wood::handlemetal-steel": 3525,
+                    "metal-steel::grip-wood::handlemetal-meteoriciron": 3325,
+                    "metal-steel::grip-wood::handlemetal-silver": 3525,
+                    "metal-steel::grip-wood::handlemetal-gold": 3525,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-copper": 3105,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-blackbronze": 3195,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 3185,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-tinbronze": 3165,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-iron": 3245,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-steel": 3550,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-meteoriciron": 3350,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-silver": 3550,
+                    "metal-steel::grip-cloth::handletier-basic::handlemetal-gold": 3550,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-copper": 3125,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-blackbronze": 3240,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 3225,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-tinbronze": 3200,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-iron": 3305,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-steel": 3680,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 3430,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-silver": 3680,
+                    "metal-steel::grip-cloth::handletier-advanced::handlemetal-gold": 3680,
+                    "metal-steel::grip-cloth::handlemetal-copper": 3105,
+                    "metal-steel::grip-cloth::handlemetal-blackbronze": 3195,
+                    "metal-steel::grip-cloth::handlemetal-bismuthbronze": 3185,
+                    "metal-steel::grip-cloth::handlemetal-tinbronze": 3165,
+                    "metal-steel::grip-cloth::handlemetal-iron": 3245,
+                    "metal-steel::grip-cloth::handlemetal-steel": 3550,
+                    "metal-steel::grip-cloth::handlemetal-meteoriciron": 3350,
+                    "metal-steel::grip-cloth::handlemetal-silver": 3550,
+                    "metal-steel::grip-cloth::handlemetal-gold": 3550,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-copper": 3130,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-blackbronze": 3220,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-bismuthbronze": 3210,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-tinbronze": 3190,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-iron": 3270,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-steel": 3575,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-meteoriciron": 3375,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-silver": 3575,
+                    "metal-steel::grip-leather::handletier-basic::handlemetal-gold": 3575,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-copper": 3150,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-blackbronze": 3265,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 3250,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-tinbronze": 3225,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-iron": 3330,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-steel": 3705,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-meteoriciron": 3455,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-silver": 3705,
+                    "metal-steel::grip-leather::handletier-advanced::handlemetal-gold": 3705,
+                    "metal-steel::grip-leather::handlemetal-copper": 3130,
+                    "metal-steel::grip-leather::handlemetal-blackbronze": 3220,
+                    "metal-steel::grip-leather::handlemetal-bismuthbronze": 3210,
+                    "metal-steel::grip-leather::handlemetal-tinbronze": 3190,
+                    "metal-steel::grip-leather::handlemetal-iron": 3270,
+                    "metal-steel::grip-leather::handlemetal-steel": 3575,
+                    "metal-steel::grip-leather::handlemetal-meteoriciron": 3375,
+                    "metal-steel::grip-leather::handlemetal-silver": 3575,
+                    "metal-steel::grip-leather::handlemetal-gold": 3575,
+                    "metal-copper::grip-wood": 400,
+                    "metal-copper::grip-cloth": 425,
+                    "metal-copper::grip-leather": 450,
+                    "metal-copper": 400,
+                    "metal-tinbronze::grip-wood": 600,
+                    "metal-tinbronze::grip-cloth": 625,
+                    "metal-tinbronze::grip-leather": 650,
+                    "metal-tinbronze": 600,
+                    "metal-bismuthbronze::grip-wood": 650,
+                    "metal-bismuthbronze::grip-cloth": 675,
+                    "metal-bismuthbronze::grip-leather": 700,
+                    "metal-bismuthbronze": 650,
+                    "metal-blackbronze::grip-wood": 700,
+                    "metal-blackbronze::grip-cloth": 725,
+                    "metal-blackbronze::grip-leather": 750,
+                    "metal-blackbronze": 700,
+                    "metal-iron::grip-wood": 1200,
+                    "metal-iron::grip-cloth": 1225,
+                    "metal-iron::grip-leather": 1250,
+                    "metal-iron": 1200,
+                    "metal-meteoriciron::grip-wood": 1400,
+                    "metal-meteoriciron::grip-cloth": 1425,
+                    "metal-meteoriciron::grip-leather": 1450,
+                    "metal-meteoriciron": 1400,
+                    "metal-steel::grip-wood": 3000,
+                    "metal-steel::grip-cloth": 3025,
+                    "metal-steel::grip-leather": 3050,
+                    "metal-steel": 3000
+                },
+                "shapeInventory": {
+                    "grip-wood": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-wood/*"
+                        ]
+                    },
+                    "grip-cloth": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-cloth/*"
+                        ]
+                    },
+                    "grip-leather": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-leather/*"
+                        ]
+                    },
+                    "*": {
+                        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                        "selectiveElements": [
+                            "shovel-head/*",
+                            "grip-wood/*"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -95,
+                "y": 130,
+                "z": 16
+            },
+            "origin": {
+                "x": 0.45,
+                "y": 0,
+                "z": 0.45
+            },
+            "scale": 2.58
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.825,
+            "y": -0.02,
+            "z": -0.49
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 1.05
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.33,
+                "y": -0.53,
+                "z": 0.04
+            },
+            "rotation": {
+                "x": 180,
+                "y": 2,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 6
+        }
+    },
+    "attributes": {
+        "shape": {
+            "grip-wood": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-wood/*"
+                ]
+            },
+            "grip-cloth": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-cloth/*"
+                ]
+            },
+            "grip-leather": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-leather/*"
+                ]
+            },
+            "*": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-wood/*"
+                ]
+            }
+        },
+        "textures": {
+            "metal-*::handlemetal-*::grip-wood::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-wood::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-wood::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-wood::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-wood::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-wood": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-wood::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-wood": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                }
+            },
+            "metal-*::handlemetal-*::grip-cloth::wood-*::cloth-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-cloth::cloth-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-cloth::wood-*::cloth-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-cloth::cloth-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-cloth::wood-*::cloth-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-cloth::cloth-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-cloth::wood-*::cloth-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-cloth::cloth-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-cloth::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-cloth::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-cloth::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-cloth": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-cloth::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-cloth::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                }
+            },
+            "metal-*::handlemetal-*::grip-leather::wood-*::leather-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-leather::leather-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-leather::wood-*::leather-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::handlemetal-*::grip-leather::leather-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{handlemetal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-leather::wood-*::leather-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-leather::leather-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-leather::wood-*::leather-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-leather::leather-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "metal-*::grip-leather::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-leather::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "metal-*::grip-leather::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "metal-*::grip-leather": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-leather::wood-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-leather::wood-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                }
+            },
+            "*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            }
+        },
+        "durability": {
+            "metal-copper::grip-wood::handletier-basic::handlemetal-copper": 480,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-blackbronze": 570,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-bismuthbronze": 560,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-tinbronze": 540,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-iron": 620,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-steel": 925,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-meteoriciron": 725,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-silver": 925,
+            "metal-copper::grip-wood::handletier-basic::handlemetal-gold": 925,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-copper": 500,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-blackbronze": 615,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 600,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-tinbronze": 575,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-iron": 680,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-steel": 1055,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-meteoriciron": 805,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-silver": 1055,
+            "metal-copper::grip-wood::handletier-advanced::handlemetal-gold": 1055,
+            "metal-copper::grip-wood::handlemetal-copper": 480,
+            "metal-copper::grip-wood::handlemetal-blackbronze": 570,
+            "metal-copper::grip-wood::handlemetal-bismuthbronze": 560,
+            "metal-copper::grip-wood::handlemetal-tinbronze": 540,
+            "metal-copper::grip-wood::handlemetal-iron": 620,
+            "metal-copper::grip-wood::handlemetal-steel": 925,
+            "metal-copper::grip-wood::handlemetal-meteoriciron": 725,
+            "metal-copper::grip-wood::handlemetal-silver": 925,
+            "metal-copper::grip-wood::handlemetal-gold": 925,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-copper": 505,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-blackbronze": 595,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 585,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-tinbronze": 565,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-iron": 645,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-steel": 950,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-meteoriciron": 750,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-silver": 950,
+            "metal-copper::grip-cloth::handletier-basic::handlemetal-gold": 950,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-copper": 525,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-blackbronze": 640,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 625,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-tinbronze": 600,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-iron": 705,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-steel": 1080,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 830,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-silver": 1080,
+            "metal-copper::grip-cloth::handletier-advanced::handlemetal-gold": 1080,
+            "metal-copper::grip-cloth::handlemetal-copper": 505,
+            "metal-copper::grip-cloth::handlemetal-blackbronze": 595,
+            "metal-copper::grip-cloth::handlemetal-bismuthbronze": 585,
+            "metal-copper::grip-cloth::handlemetal-tinbronze": 565,
+            "metal-copper::grip-cloth::handlemetal-iron": 645,
+            "metal-copper::grip-cloth::handlemetal-steel": 950,
+            "metal-copper::grip-cloth::handlemetal-meteoriciron": 750,
+            "metal-copper::grip-cloth::handlemetal-silver": 950,
+            "metal-copper::grip-cloth::handlemetal-gold": 950,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-copper": 530,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-blackbronze": 620,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-bismuthbronze": 610,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-tinbronze": 590,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-iron": 670,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-steel": 975,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-meteoriciron": 775,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-silver": 975,
+            "metal-copper::grip-leather::handletier-basic::handlemetal-gold": 975,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-copper": 550,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-blackbronze": 665,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 650,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-tinbronze": 625,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-iron": 730,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-steel": 1105,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-meteoriciron": 855,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-silver": 1105,
+            "metal-copper::grip-leather::handletier-advanced::handlemetal-gold": 1105,
+            "metal-copper::grip-leather::handlemetal-copper": 530,
+            "metal-copper::grip-leather::handlemetal-blackbronze": 620,
+            "metal-copper::grip-leather::handlemetal-bismuthbronze": 610,
+            "metal-copper::grip-leather::handlemetal-tinbronze": 590,
+            "metal-copper::grip-leather::handlemetal-iron": 670,
+            "metal-copper::grip-leather::handlemetal-steel": 975,
+            "metal-copper::grip-leather::handlemetal-meteoriciron": 775,
+            "metal-copper::grip-leather::handlemetal-silver": 975,
+            "metal-copper::grip-leather::handlemetal-gold": 975,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-copper": 680,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 770,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 760,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 740,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-iron": 820,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-steel": 1125,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 925,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-silver": 1125,
+            "metal-tinbronze::grip-wood::handletier-basic::handlemetal-gold": 1125,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-copper": 700,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 815,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 800,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 775,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-iron": 880,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-steel": 1255,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1005,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-silver": 1255,
+            "metal-tinbronze::grip-wood::handletier-advanced::handlemetal-gold": 1255,
+            "metal-tinbronze::grip-wood::handlemetal-copper": 680,
+            "metal-tinbronze::grip-wood::handlemetal-blackbronze": 770,
+            "metal-tinbronze::grip-wood::handlemetal-bismuthbronze": 760,
+            "metal-tinbronze::grip-wood::handlemetal-tinbronze": 740,
+            "metal-tinbronze::grip-wood::handlemetal-iron": 820,
+            "metal-tinbronze::grip-wood::handlemetal-steel": 1125,
+            "metal-tinbronze::grip-wood::handlemetal-meteoriciron": 925,
+            "metal-tinbronze::grip-wood::handlemetal-silver": 1125,
+            "metal-tinbronze::grip-wood::handlemetal-gold": 1125,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-copper": 705,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 795,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 785,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 765,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-iron": 845,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-steel": 1150,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 950,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-silver": 1150,
+            "metal-tinbronze::grip-cloth::handletier-basic::handlemetal-gold": 1150,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-copper": 725,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 840,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 825,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 800,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-iron": 905,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1280,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1030,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1280,
+            "metal-tinbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1280,
+            "metal-tinbronze::grip-cloth::handlemetal-copper": 705,
+            "metal-tinbronze::grip-cloth::handlemetal-blackbronze": 795,
+            "metal-tinbronze::grip-cloth::handlemetal-bismuthbronze": 785,
+            "metal-tinbronze::grip-cloth::handlemetal-tinbronze": 765,
+            "metal-tinbronze::grip-cloth::handlemetal-iron": 845,
+            "metal-tinbronze::grip-cloth::handlemetal-steel": 1150,
+            "metal-tinbronze::grip-cloth::handlemetal-meteoriciron": 950,
+            "metal-tinbronze::grip-cloth::handlemetal-silver": 1150,
+            "metal-tinbronze::grip-cloth::handlemetal-gold": 1150,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-copper": 730,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 820,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 810,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 790,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-iron": 870,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-steel": 1175,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 975,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-silver": 1175,
+            "metal-tinbronze::grip-leather::handletier-basic::handlemetal-gold": 1175,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-copper": 750,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 865,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 850,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 825,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-iron": 930,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-steel": 1305,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1055,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-silver": 1305,
+            "metal-tinbronze::grip-leather::handletier-advanced::handlemetal-gold": 1305,
+            "metal-tinbronze::grip-leather::handlemetal-copper": 730,
+            "metal-tinbronze::grip-leather::handlemetal-blackbronze": 820,
+            "metal-tinbronze::grip-leather::handlemetal-bismuthbronze": 810,
+            "metal-tinbronze::grip-leather::handlemetal-tinbronze": 790,
+            "metal-tinbronze::grip-leather::handlemetal-iron": 870,
+            "metal-tinbronze::grip-leather::handlemetal-steel": 1175,
+            "metal-tinbronze::grip-leather::handlemetal-meteoriciron": 975,
+            "metal-tinbronze::grip-leather::handlemetal-silver": 1175,
+            "metal-tinbronze::grip-leather::handlemetal-gold": 1175,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-copper": 730,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 820,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 810,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 790,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-iron": 870,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-steel": 1175,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 975,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-silver": 1175,
+            "metal-bismuthbronze::grip-wood::handletier-basic::handlemetal-gold": 1175,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-copper": 750,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 865,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 850,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 825,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-iron": 930,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-steel": 1305,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1055,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-silver": 1305,
+            "metal-bismuthbronze::grip-wood::handletier-advanced::handlemetal-gold": 1305,
+            "metal-bismuthbronze::grip-wood::handlemetal-copper": 730,
+            "metal-bismuthbronze::grip-wood::handlemetal-blackbronze": 820,
+            "metal-bismuthbronze::grip-wood::handlemetal-bismuthbronze": 810,
+            "metal-bismuthbronze::grip-wood::handlemetal-tinbronze": 790,
+            "metal-bismuthbronze::grip-wood::handlemetal-iron": 870,
+            "metal-bismuthbronze::grip-wood::handlemetal-steel": 1175,
+            "metal-bismuthbronze::grip-wood::handlemetal-meteoriciron": 975,
+            "metal-bismuthbronze::grip-wood::handlemetal-silver": 1175,
+            "metal-bismuthbronze::grip-wood::handlemetal-gold": 1175,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-copper": 755,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 845,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 835,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 815,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-iron": 895,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-steel": 1200,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1000,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-silver": 1200,
+            "metal-bismuthbronze::grip-cloth::handletier-basic::handlemetal-gold": 1200,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-copper": 775,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 890,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 875,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 850,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-iron": 955,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1330,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1080,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1330,
+            "metal-bismuthbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1330,
+            "metal-bismuthbronze::grip-cloth::handlemetal-copper": 755,
+            "metal-bismuthbronze::grip-cloth::handlemetal-blackbronze": 845,
+            "metal-bismuthbronze::grip-cloth::handlemetal-bismuthbronze": 835,
+            "metal-bismuthbronze::grip-cloth::handlemetal-tinbronze": 815,
+            "metal-bismuthbronze::grip-cloth::handlemetal-iron": 895,
+            "metal-bismuthbronze::grip-cloth::handlemetal-steel": 1200,
+            "metal-bismuthbronze::grip-cloth::handlemetal-meteoriciron": 1000,
+            "metal-bismuthbronze::grip-cloth::handlemetal-silver": 1200,
+            "metal-bismuthbronze::grip-cloth::handlemetal-gold": 1200,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-copper": 780,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 870,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 860,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 840,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-iron": 920,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-steel": 1225,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 1025,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-silver": 1225,
+            "metal-bismuthbronze::grip-leather::handletier-basic::handlemetal-gold": 1225,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-copper": 800,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 915,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 900,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 875,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-iron": 980,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-steel": 1355,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1105,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-silver": 1355,
+            "metal-bismuthbronze::grip-leather::handletier-advanced::handlemetal-gold": 1355,
+            "metal-bismuthbronze::grip-leather::handlemetal-copper": 780,
+            "metal-bismuthbronze::grip-leather::handlemetal-blackbronze": 870,
+            "metal-bismuthbronze::grip-leather::handlemetal-bismuthbronze": 860,
+            "metal-bismuthbronze::grip-leather::handlemetal-tinbronze": 840,
+            "metal-bismuthbronze::grip-leather::handlemetal-iron": 920,
+            "metal-bismuthbronze::grip-leather::handlemetal-steel": 1225,
+            "metal-bismuthbronze::grip-leather::handlemetal-meteoriciron": 1025,
+            "metal-bismuthbronze::grip-leather::handlemetal-silver": 1225,
+            "metal-bismuthbronze::grip-leather::handlemetal-gold": 1225,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-copper": 780,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-blackbronze": 870,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-bismuthbronze": 860,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-tinbronze": 840,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-iron": 920,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-steel": 1225,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-meteoriciron": 1025,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-silver": 1225,
+            "metal-blackbronze::grip-wood::handletier-basic::handlemetal-gold": 1225,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-copper": 800,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-blackbronze": 915,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 900,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-tinbronze": 875,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-iron": 980,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-steel": 1355,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1105,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-silver": 1355,
+            "metal-blackbronze::grip-wood::handletier-advanced::handlemetal-gold": 1355,
+            "metal-blackbronze::grip-wood::handlemetal-copper": 780,
+            "metal-blackbronze::grip-wood::handlemetal-blackbronze": 870,
+            "metal-blackbronze::grip-wood::handlemetal-bismuthbronze": 860,
+            "metal-blackbronze::grip-wood::handlemetal-tinbronze": 840,
+            "metal-blackbronze::grip-wood::handlemetal-iron": 920,
+            "metal-blackbronze::grip-wood::handlemetal-steel": 1225,
+            "metal-blackbronze::grip-wood::handlemetal-meteoriciron": 1025,
+            "metal-blackbronze::grip-wood::handlemetal-silver": 1225,
+            "metal-blackbronze::grip-wood::handlemetal-gold": 1225,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-copper": 805,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-blackbronze": 895,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 885,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-tinbronze": 865,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-iron": 945,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-steel": 1250,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1050,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-silver": 1250,
+            "metal-blackbronze::grip-cloth::handletier-basic::handlemetal-gold": 1250,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-copper": 825,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-blackbronze": 940,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 925,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-tinbronze": 900,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-iron": 1005,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-steel": 1380,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1130,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-silver": 1380,
+            "metal-blackbronze::grip-cloth::handletier-advanced::handlemetal-gold": 1380,
+            "metal-blackbronze::grip-cloth::handlemetal-copper": 805,
+            "metal-blackbronze::grip-cloth::handlemetal-blackbronze": 895,
+            "metal-blackbronze::grip-cloth::handlemetal-bismuthbronze": 885,
+            "metal-blackbronze::grip-cloth::handlemetal-tinbronze": 865,
+            "metal-blackbronze::grip-cloth::handlemetal-iron": 945,
+            "metal-blackbronze::grip-cloth::handlemetal-steel": 1250,
+            "metal-blackbronze::grip-cloth::handlemetal-meteoriciron": 1050,
+            "metal-blackbronze::grip-cloth::handlemetal-silver": 1250,
+            "metal-blackbronze::grip-cloth::handlemetal-gold": 1250,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-copper": 830,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-blackbronze": 920,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-bismuthbronze": 910,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-tinbronze": 890,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-iron": 970,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-steel": 1275,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-meteoriciron": 1075,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-silver": 1275,
+            "metal-blackbronze::grip-leather::handletier-basic::handlemetal-gold": 1275,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-copper": 850,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-blackbronze": 965,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 950,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-tinbronze": 925,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-iron": 1030,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-steel": 1405,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1155,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-silver": 1405,
+            "metal-blackbronze::grip-leather::handletier-advanced::handlemetal-gold": 1405,
+            "metal-blackbronze::grip-leather::handlemetal-copper": 830,
+            "metal-blackbronze::grip-leather::handlemetal-blackbronze": 920,
+            "metal-blackbronze::grip-leather::handlemetal-bismuthbronze": 910,
+            "metal-blackbronze::grip-leather::handlemetal-tinbronze": 890,
+            "metal-blackbronze::grip-leather::handlemetal-iron": 970,
+            "metal-blackbronze::grip-leather::handlemetal-steel": 1275,
+            "metal-blackbronze::grip-leather::handlemetal-meteoriciron": 1075,
+            "metal-blackbronze::grip-leather::handlemetal-silver": 1275,
+            "metal-blackbronze::grip-leather::handlemetal-gold": 1275,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-copper": 1280,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-blackbronze": 1370,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-bismuthbronze": 1360,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-tinbronze": 1340,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-iron": 1420,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-steel": 1725,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-meteoriciron": 1525,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-silver": 1725,
+            "metal-iron::grip-wood::handletier-basic::handlemetal-gold": 1725,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-copper": 1300,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-blackbronze": 1415,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 1400,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-tinbronze": 1375,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-iron": 1480,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-steel": 1855,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1605,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-silver": 1855,
+            "metal-iron::grip-wood::handletier-advanced::handlemetal-gold": 1855,
+            "metal-iron::grip-wood::handlemetal-copper": 1280,
+            "metal-iron::grip-wood::handlemetal-blackbronze": 1370,
+            "metal-iron::grip-wood::handlemetal-bismuthbronze": 1360,
+            "metal-iron::grip-wood::handlemetal-tinbronze": 1340,
+            "metal-iron::grip-wood::handlemetal-iron": 1420,
+            "metal-iron::grip-wood::handlemetal-steel": 1725,
+            "metal-iron::grip-wood::handlemetal-meteoriciron": 1525,
+            "metal-iron::grip-wood::handlemetal-silver": 1725,
+            "metal-iron::grip-wood::handlemetal-gold": 1725,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-copper": 1305,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-blackbronze": 1395,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 1385,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-tinbronze": 1365,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-iron": 1445,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-steel": 1750,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1550,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-silver": 1750,
+            "metal-iron::grip-cloth::handletier-basic::handlemetal-gold": 1750,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-copper": 1325,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-blackbronze": 1440,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 1425,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-tinbronze": 1400,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-iron": 1505,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-steel": 1880,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1630,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-silver": 1880,
+            "metal-iron::grip-cloth::handletier-advanced::handlemetal-gold": 1880,
+            "metal-iron::grip-cloth::handlemetal-copper": 1305,
+            "metal-iron::grip-cloth::handlemetal-blackbronze": 1395,
+            "metal-iron::grip-cloth::handlemetal-bismuthbronze": 1385,
+            "metal-iron::grip-cloth::handlemetal-tinbronze": 1365,
+            "metal-iron::grip-cloth::handlemetal-iron": 1445,
+            "metal-iron::grip-cloth::handlemetal-steel": 1750,
+            "metal-iron::grip-cloth::handlemetal-meteoriciron": 1550,
+            "metal-iron::grip-cloth::handlemetal-silver": 1750,
+            "metal-iron::grip-cloth::handlemetal-gold": 1750,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-copper": 1330,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-blackbronze": 1420,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-bismuthbronze": 1410,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-tinbronze": 1390,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-iron": 1470,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-steel": 1775,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-meteoriciron": 1575,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-silver": 1775,
+            "metal-iron::grip-leather::handletier-basic::handlemetal-gold": 1775,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-copper": 1350,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-blackbronze": 1465,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 1450,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-tinbronze": 1425,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-iron": 1530,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-steel": 1905,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1655,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-silver": 1905,
+            "metal-iron::grip-leather::handletier-advanced::handlemetal-gold": 1905,
+            "metal-iron::grip-leather::handlemetal-copper": 1330,
+            "metal-iron::grip-leather::handlemetal-blackbronze": 1420,
+            "metal-iron::grip-leather::handlemetal-bismuthbronze": 1410,
+            "metal-iron::grip-leather::handlemetal-tinbronze": 1390,
+            "metal-iron::grip-leather::handlemetal-iron": 1470,
+            "metal-iron::grip-leather::handlemetal-steel": 1775,
+            "metal-iron::grip-leather::handlemetal-meteoriciron": 1575,
+            "metal-iron::grip-leather::handlemetal-silver": 1775,
+            "metal-iron::grip-leather::handlemetal-gold": 1775,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-copper": 1480,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-blackbronze": 1570,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-bismuthbronze": 1560,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-tinbronze": 1540,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-iron": 1620,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-steel": 1925,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-meteoriciron": 1725,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-silver": 1925,
+            "metal-meteoriciron::grip-wood::handletier-basic::handlemetal-gold": 1925,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-copper": 1500,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-blackbronze": 1615,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 1600,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-tinbronze": 1575,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-iron": 1680,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-steel": 2055,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-meteoriciron": 1805,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-silver": 2055,
+            "metal-meteoriciron::grip-wood::handletier-advanced::handlemetal-gold": 2055,
+            "metal-meteoriciron::grip-wood::handlemetal-copper": 1480,
+            "metal-meteoriciron::grip-wood::handlemetal-blackbronze": 1570,
+            "metal-meteoriciron::grip-wood::handlemetal-bismuthbronze": 1560,
+            "metal-meteoriciron::grip-wood::handlemetal-tinbronze": 1540,
+            "metal-meteoriciron::grip-wood::handlemetal-iron": 1620,
+            "metal-meteoriciron::grip-wood::handlemetal-steel": 1925,
+            "metal-meteoriciron::grip-wood::handlemetal-meteoriciron": 1725,
+            "metal-meteoriciron::grip-wood::handlemetal-silver": 1925,
+            "metal-meteoriciron::grip-wood::handlemetal-gold": 1925,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-copper": 1505,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-blackbronze": 1595,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 1585,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-tinbronze": 1565,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-iron": 1645,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-steel": 1950,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-meteoriciron": 1750,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-silver": 1950,
+            "metal-meteoriciron::grip-cloth::handletier-basic::handlemetal-gold": 1950,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-copper": 1525,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-blackbronze": 1640,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 1625,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-tinbronze": 1600,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-iron": 1705,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-steel": 2080,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 1830,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-silver": 2080,
+            "metal-meteoriciron::grip-cloth::handletier-advanced::handlemetal-gold": 2080,
+            "metal-meteoriciron::grip-cloth::handlemetal-copper": 1505,
+            "metal-meteoriciron::grip-cloth::handlemetal-blackbronze": 1595,
+            "metal-meteoriciron::grip-cloth::handlemetal-bismuthbronze": 1585,
+            "metal-meteoriciron::grip-cloth::handlemetal-tinbronze": 1565,
+            "metal-meteoriciron::grip-cloth::handlemetal-iron": 1645,
+            "metal-meteoriciron::grip-cloth::handlemetal-steel": 1950,
+            "metal-meteoriciron::grip-cloth::handlemetal-meteoriciron": 1750,
+            "metal-meteoriciron::grip-cloth::handlemetal-silver": 1950,
+            "metal-meteoriciron::grip-cloth::handlemetal-gold": 1950,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-copper": 1530,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-blackbronze": 1620,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-bismuthbronze": 1610,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-tinbronze": 1590,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-iron": 1670,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-steel": 1975,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-meteoriciron": 1775,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-silver": 1975,
+            "metal-meteoriciron::grip-leather::handletier-basic::handlemetal-gold": 1975,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-copper": 1550,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-blackbronze": 1665,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 1650,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-tinbronze": 1625,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-iron": 1730,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-steel": 2105,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-meteoriciron": 1855,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-silver": 2105,
+            "metal-meteoriciron::grip-leather::handletier-advanced::handlemetal-gold": 2105,
+            "metal-meteoriciron::grip-leather::handlemetal-copper": 1530,
+            "metal-meteoriciron::grip-leather::handlemetal-blackbronze": 1620,
+            "metal-meteoriciron::grip-leather::handlemetal-bismuthbronze": 1610,
+            "metal-meteoriciron::grip-leather::handlemetal-tinbronze": 1590,
+            "metal-meteoriciron::grip-leather::handlemetal-iron": 1670,
+            "metal-meteoriciron::grip-leather::handlemetal-steel": 1975,
+            "metal-meteoriciron::grip-leather::handlemetal-meteoriciron": 1775,
+            "metal-meteoriciron::grip-leather::handlemetal-silver": 1975,
+            "metal-meteoriciron::grip-leather::handlemetal-gold": 1975,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-copper": 3080,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-blackbronze": 3170,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-bismuthbronze": 3160,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-tinbronze": 3140,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-iron": 3220,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-steel": 3525,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-meteoriciron": 3325,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-silver": 3525,
+            "metal-steel::grip-wood::handletier-basic::handlemetal-gold": 3525,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-copper": 3100,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-blackbronze": 3215,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-bismuthbronze": 3200,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-tinbronze": 3175,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-iron": 3280,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-steel": 3655,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-meteoriciron": 3405,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-silver": 3655,
+            "metal-steel::grip-wood::handletier-advanced::handlemetal-gold": 3655,
+            "metal-steel::grip-wood::handlemetal-copper": 3080,
+            "metal-steel::grip-wood::handlemetal-blackbronze": 3170,
+            "metal-steel::grip-wood::handlemetal-bismuthbronze": 3160,
+            "metal-steel::grip-wood::handlemetal-tinbronze": 3140,
+            "metal-steel::grip-wood::handlemetal-iron": 3220,
+            "metal-steel::grip-wood::handlemetal-steel": 3525,
+            "metal-steel::grip-wood::handlemetal-meteoriciron": 3325,
+            "metal-steel::grip-wood::handlemetal-silver": 3525,
+            "metal-steel::grip-wood::handlemetal-gold": 3525,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-copper": 3105,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-blackbronze": 3195,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-bismuthbronze": 3185,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-tinbronze": 3165,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-iron": 3245,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-steel": 3550,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-meteoriciron": 3350,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-silver": 3550,
+            "metal-steel::grip-cloth::handletier-basic::handlemetal-gold": 3550,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-copper": 3125,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-blackbronze": 3240,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-bismuthbronze": 3225,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-tinbronze": 3200,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-iron": 3305,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-steel": 3680,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-meteoriciron": 3430,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-silver": 3680,
+            "metal-steel::grip-cloth::handletier-advanced::handlemetal-gold": 3680,
+            "metal-steel::grip-cloth::handlemetal-copper": 3105,
+            "metal-steel::grip-cloth::handlemetal-blackbronze": 3195,
+            "metal-steel::grip-cloth::handlemetal-bismuthbronze": 3185,
+            "metal-steel::grip-cloth::handlemetal-tinbronze": 3165,
+            "metal-steel::grip-cloth::handlemetal-iron": 3245,
+            "metal-steel::grip-cloth::handlemetal-steel": 3550,
+            "metal-steel::grip-cloth::handlemetal-meteoriciron": 3350,
+            "metal-steel::grip-cloth::handlemetal-silver": 3550,
+            "metal-steel::grip-cloth::handlemetal-gold": 3550,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-copper": 3130,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-blackbronze": 3220,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-bismuthbronze": 3210,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-tinbronze": 3190,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-iron": 3270,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-steel": 3575,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-meteoriciron": 3375,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-silver": 3575,
+            "metal-steel::grip-leather::handletier-basic::handlemetal-gold": 3575,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-copper": 3150,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-blackbronze": 3265,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-bismuthbronze": 3250,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-tinbronze": 3225,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-iron": 3330,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-steel": 3705,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-meteoriciron": 3455,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-silver": 3705,
+            "metal-steel::grip-leather::handletier-advanced::handlemetal-gold": 3705,
+            "metal-steel::grip-leather::handlemetal-copper": 3130,
+            "metal-steel::grip-leather::handlemetal-blackbronze": 3220,
+            "metal-steel::grip-leather::handlemetal-bismuthbronze": 3210,
+            "metal-steel::grip-leather::handlemetal-tinbronze": 3190,
+            "metal-steel::grip-leather::handlemetal-iron": 3270,
+            "metal-steel::grip-leather::handlemetal-steel": 3575,
+            "metal-steel::grip-leather::handlemetal-meteoriciron": 3375,
+            "metal-steel::grip-leather::handlemetal-silver": 3575,
+            "metal-steel::grip-leather::handlemetal-gold": 3575,
+            "metal-copper::grip-wood": 400,
+            "metal-copper::grip-cloth": 425,
+            "metal-copper::grip-leather": 450,
+            "metal-copper": 400,
+            "metal-tinbronze::grip-wood": 600,
+            "metal-tinbronze::grip-cloth": 625,
+            "metal-tinbronze::grip-leather": 650,
+            "metal-tinbronze": 600,
+            "metal-bismuthbronze::grip-wood": 650,
+            "metal-bismuthbronze::grip-cloth": 675,
+            "metal-bismuthbronze::grip-leather": 700,
+            "metal-bismuthbronze": 650,
+            "metal-blackbronze::grip-wood": 700,
+            "metal-blackbronze::grip-cloth": 725,
+            "metal-blackbronze::grip-leather": 750,
+            "metal-blackbronze": 700,
+            "metal-iron::grip-wood": 1200,
+            "metal-iron::grip-cloth": 1225,
+            "metal-iron::grip-leather": 1250,
+            "metal-iron": 1200,
+            "metal-meteoriciron::grip-wood": 1400,
+            "metal-meteoriciron::grip-cloth": 1425,
+            "metal-meteoriciron::grip-leather": 1450,
+            "metal-meteoriciron": 1400,
+            "metal-steel::grip-wood": 3000,
+            "metal-steel::grip-cloth": 3025,
+            "metal-steel::grip-leather": 3050,
+            "metal-steel": 3000
+        },
+        "shapeInventory": {
+            "grip-wood": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-wood/*"
+                ]
+            },
+            "grip-cloth": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-cloth/*"
+                ]
+            },
+            "grip-leather": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-leather/*"
+                ]
+            },
+            "*": {
+                "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+                "selectiveElements": [
+                    "shovel-head/*",
+                    "grip-wood/*"
+                ]
+            }
+        }
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-shovel/weapon/rift-shovel-master-inv",
+        "selectiveElements": [
+            "shovel-head/*",
+            "grip-wood/*"
+        ]
+    },
+    "creativeInventoryStacksByType": {
+        "*-copper": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-copper",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-copper",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-copper",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-blackbronze": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-blackbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-blackbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-blackbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-bismuthbronze": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-bismuthbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-bismuthbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-bismuthbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-tinbronze": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-tinbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-tinbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-tinbronze",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-iron": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-iron",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-iron",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-iron",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-steel": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-steel",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-steel",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-steel",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "*-meteoriciron": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-meteoriciron",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-meteoriciron",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "rift-shovel-meteoriciron",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

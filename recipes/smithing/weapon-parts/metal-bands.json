@@ -1,0 +1,245 @@
+[
+    {
+        "code": "riftweapons:metalbands-copper",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "copper"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "copper"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-blackbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "blackbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "blackbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-bismuthbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "bismuthbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-tinbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "tinbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "tinbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-iron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "iron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-steel",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "steel"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-meteoriciron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "meteoriciron"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "meteoriciron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-silver",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "silver"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "silver"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:metalbands-gold",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "gold"
+            ]
+        },
+        "pattern": [
+            [
+                "## ## ## ##",
+                "## ## ## ##"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:metalbands",
+            "quantity": 4,
+            "attributes": {
+                "types": {
+                    "metal": "gold"
+                }
+            }
+        }
+    }
+]

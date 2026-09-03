@@ -1,0 +1,177 @@
+[
+    {
+        "code": "riftweapons:shovel-head-copper",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "copper"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-copper"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-blackbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "blackbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-blackbronze"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-bismuthbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-bismuthbronze"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-tinbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "tinbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-tinbronze"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-iron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-iron"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-steel",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-steel"
+        }
+    },
+    {
+        "code": "riftweapons:shovel-head-meteoriciron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "meteoriciron"
+            ]
+        },
+        "pattern": [
+            [
+                "__#####",
+                "_######",
+                "#######",
+                "#######",
+                "_######",
+                "__#####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-head-meteoriciron"
+        }
+    }
+]

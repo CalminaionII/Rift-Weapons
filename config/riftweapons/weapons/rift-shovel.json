@@ -1,0 +1,38 @@
+{
+    "code": "rift-weapons:rift-shovel-*",
+    "head": "rift-weapons:shovel-head-*",
+    "handle": "rift-weapons:shovel-handle",
+    "headKeys": [],
+    "handleKeys": [
+        "handletier",
+        "handlemetal",
+        "grip",
+        "wood",
+        "cloth",
+        "leather"
+    ],
+    "pattern": "A,B",
+    "width": 1,
+    "height": 2,
+    "regrip": true,
+    "headCodeKeys": [
+        "metal"
+    ],
+    "stats": {
+        "_comment": "Per-weapon override. build-stats.py uses these instead of materials.json so the shovel matches the VANILLA shovel rather than the sword.",
+        "durability": {
+            "copper": 400,
+            "tinbronze": 600,
+            "bismuthbronze": 650,
+            "blackbronze": 700,
+            "iron": 1200,
+            "meteoriciron": 1400,
+            "steel": 3000
+        },
+        "gripDurability": {
+            "wood": 0,
+            "cloth": 25,
+            "leather": 50
+        }
+    }
+}

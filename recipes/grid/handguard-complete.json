@@ -1,0 +1,515 @@
+[
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-copper"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-blackbronze"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-bismuthbronze"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-tinbronze"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-iron"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-steel"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-meteoriciron"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-silver"
+    },
+    {
+        "ingredientPattern": "AD,BE,C ",
+        "width": 2,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:flatguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "D": {
+                "type": "item",
+                "code": "game:solderbar-*"
+            },
+            "E": {
+                "type": "item",
+                "code": "game:solderingiron",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguardcomplete",
+            "attributes": {
+                "types": {
+                    "metal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:handguard-complete-gold"
+    }
+]

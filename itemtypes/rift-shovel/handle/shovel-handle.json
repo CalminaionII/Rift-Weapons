@@ -1,0 +1,1346 @@
+{
+    "code": "shovel-handle",
+    "type": "item",
+    "maxStackSize": 1,
+    "shape": {
+        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+        "selectiveElements": [
+            "handle-base-wood/*"
+        ]
+    },
+    "textures": {
+        "metal": {
+            "base": "game:block/metal/ingot/{metal}"
+        },
+        "wood": {
+            "base": "game:block/wood/debarked/oak"
+        },
+        "cloth": {
+            "base": "game:block/cloth/linen/plain"
+        },
+        "leather": {
+            "base": "game:block/leather/plain"
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Halves",
+                "rotation": true
+            }
+        },
+        {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "shape": {
+                    "grip-wood": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                        "selectiveElements": [
+                            "handle-base-wood/*"
+                        ]
+                    },
+                    "grip-cloth": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                        "selectiveElements": [
+                            "handle-base-cloth/*"
+                        ]
+                    },
+                    "grip-leather": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                        "selectiveElements": [
+                            "handle-base-leather/*"
+                        ]
+                    },
+                    "*": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                        "selectiveElements": [
+                            "handle-base-wood/*"
+                        ]
+                    }
+                },
+                "textures": {
+                    "grip-wood::wood-*::metal-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-wood::wood-*::metal-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-wood::wood-*::gem-*": {
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-wood::wood-*": {
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-wood::gem-*": {
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-wood": {
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-cloth::wood-*::cloth-*::metal-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::cloth-*::metal-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-cloth::wood-*::cloth-*::metal-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::cloth-*::metal-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-cloth::wood-*::cloth-*::gem-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::cloth-*::gem-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-cloth::wood-*::cloth-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::cloth-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/{cloth}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-cloth::wood-*::gem-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth::gem-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-cloth::wood-*": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-cloth": {
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-leather::wood-*::leather-*::metal-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::leather-*::metal-*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-leather::wood-*::leather-*::metal-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::leather-*::metal-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-leather::wood-*::leather-*::gem-*": {
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::leather-*::gem-*": {
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-leather::wood-*::leather-*": {
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::leather-*": {
+                        "leather": {
+                            "base": "game:block/leather/{leather}"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "grip-leather::wood-*::gem-*": {
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather::gem-*": {
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "grip-leather::wood-*": {
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/{wood}"
+                        }
+                    },
+                    "grip-leather": {
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    },
+                    "*::gem-*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        },
+                        "gem": {
+                            "base": "game:item/resource/nugget/{gem}"
+                        }
+                    },
+                    "*": {
+                        "metal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        },
+                        "wood": {
+                            "base": "game:block/wood/debarked/oak"
+                        },
+                        "cloth": {
+                            "base": "game:block/cloth/linen/plain"
+                        },
+                        "leather": {
+                            "base": "game:block/leather/plain"
+                        },
+                        "rope": {
+                            "base": "rift-weapons:item/rope/rope"
+                        }
+                    }
+                },
+                "shapeInventory": {
+                    "grip-wood": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                        "selectiveElements": [
+                            "handle-base-wood/*"
+                        ]
+                    },
+                    "grip-cloth": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                        "selectiveElements": [
+                            "handle-base-cloth/*"
+                        ]
+                    },
+                    "grip-leather": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                        "selectiveElements": [
+                            "handle-base-leather/*"
+                        ]
+                    },
+                    "*": {
+                        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                        "selectiveElements": [
+                            "handle-base-wood/*"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "riftweapons.RiftHandle"
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -95,
+                "y": 130,
+                "z": 16
+            },
+            "origin": {
+                "x": 0.4,
+                "y": 1,
+                "z": 0.4
+            },
+            "scale": 4
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.825,
+                "y": -0.45,
+                "z": -0.01
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.05
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.33,
+                "y": -0.53,
+                "z": 0.04
+            },
+            "rotation": {
+                "x": 180,
+                "y": 2,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 6
+        }
+    },
+    "attributes": {
+        "shape": {
+            "grip-wood": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                "selectiveElements": [
+                    "handle-base-wood/*"
+                ]
+            },
+            "grip-cloth": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                "selectiveElements": [
+                    "handle-base-cloth/*"
+                ]
+            },
+            "grip-leather": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                "selectiveElements": [
+                    "handle-base-leather/*"
+                ]
+            },
+            "*": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master",
+                "selectiveElements": [
+                    "handle-base-wood/*"
+                ]
+            }
+        },
+        "textures": {
+            "grip-wood::wood-*::metal-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-wood::wood-*::metal-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-wood::wood-*::gem-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-wood::wood-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-wood::gem-*": {
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-wood": {
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-cloth::wood-*::cloth-*::metal-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::cloth-*::metal-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-cloth::wood-*::cloth-*::metal-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::cloth-*::metal-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-cloth::wood-*::cloth-*::gem-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::cloth-*::gem-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-cloth::wood-*::cloth-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::cloth-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/{cloth}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-cloth::wood-*::gem-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth::gem-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-cloth::wood-*": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-cloth": {
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-leather::wood-*::leather-*::metal-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::leather-*::metal-*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-leather::wood-*::leather-*::metal-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::leather-*::metal-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                },
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-leather::wood-*::leather-*::gem-*": {
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::leather-*::gem-*": {
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-leather::wood-*::leather-*": {
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::leather-*": {
+                "leather": {
+                    "base": "game:block/leather/{leather}"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "grip-leather::wood-*::gem-*": {
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather::gem-*": {
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "grip-leather::wood-*": {
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/{wood}"
+                }
+            },
+            "grip-leather": {
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            },
+            "*::gem-*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                },
+                "gem": {
+                    "base": "game:item/resource/nugget/{gem}"
+                }
+            },
+            "*": {
+                "metal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                },
+                "wood": {
+                    "base": "game:block/wood/debarked/oak"
+                },
+                "cloth": {
+                    "base": "game:block/cloth/linen/plain"
+                },
+                "leather": {
+                    "base": "game:block/leather/plain"
+                },
+                "rope": {
+                    "base": "rift-weapons:item/rope/rope"
+                }
+            }
+        },
+        "shapeInventory": {
+            "grip-wood": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                "selectiveElements": [
+                    "handle-base-wood/*"
+                ]
+            },
+            "grip-cloth": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                "selectiveElements": [
+                    "handle-base-cloth/*"
+                ]
+            },
+            "grip-leather": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                "selectiveElements": [
+                    "handle-base-leather/*"
+                ]
+            },
+            "*": {
+                "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+                "selectiveElements": [
+                    "handle-base-wood/*"
+                ]
+            }
+        }
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-shovel/handle/shovel-handle-master-inv",
+        "selectiveElements": [
+            "handle-base-wood/*"
+        ]
+    },
+    "creativeInventoryStacksByType": {
+        "*": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "shovel-handle",
+                        "attributes": {
+                            "types": {
+                                "tier": "base",
+                                "handletier": "crude",
+                                "grip": "wood",
+                                "wood": "oak"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "shovel-handle",
+                        "attributes": {
+                            "types": {
+                                "tier": "base",
+                                "handletier": "crude",
+                                "grip": "cloth",
+                                "wood": "oak",
+                                "cloth": "plain"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "shovel-handle",
+                        "attributes": {
+                            "types": {
+                                "tier": "base",
+                                "handletier": "crude",
+                                "grip": "leather",
+                                "wood": "oak",
+                                "leather": "orange"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "code": "metalbands",
+    "type": "item",
+    "maxStackSize": 12,
+    "shape": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/pommel"
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/pommel-inv"
+    },
+    "textures": {
+        "handlemetal": {
+            "base": "game:block/metal/ingot/copper"
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "quadrants",
+                "rotation": true,
+                "wallOffYByType": {
+                    "*": 1
+                },
+                "ctrlKey": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        },
+        {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "shape": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/pommel"
+                    }
+                },
+                "textures": {
+                    "metal-*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        }
+                    },
+                    "*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        }
+                    }
+                },
+                "name": {
+                    "metal-*": [
+                        "material-{metal}",
+                        " Metal Bands"
+                    ]
+                },
+                "shapeInventory": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/pommel-inv"
+                    }
+                }
+            }
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -30,
+                "y": 120,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.6,
+                "y": 0.4,
+                "z": 0.8
+            },
+            "scale": 6
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.98,
+                "y": -0.4,
+                "z": 0.05
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.2
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0.62,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 6
+        }
+    },
+    "attributes": {
+        "groundStorageTransformByType": {
+            "*": {
+                "translation": {
+                    "x": 0.0,
+                    "y": 0.26,
+                    "z": 0.6
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 90
+                },
+                "scale": 1.5
+            }
+        },
+        "onTongTransformByType": {
+            "*": {
+                "translation": {
+                    "x": -0.51,
+                    "y": 0.06,
+                    "z": -0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 2,
+                    "z": 73
+                },
+                "scale": 1.2
+            }
+        },
+        "renderHeld": false,
+        "shape": {
+            "*": {
+                "base": "rift-weapons:item/rift-sword/weapon-parts/pommel"
+            }
+        },
+        "textures": {
+            "metal-*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                }
+            },
+            "*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                }
+            }
+        }
+    },
+    "creativeInventoryStacksByType": {
+        "*": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "silver"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "metalbands",
+                        "attributes": {
+                            "types": {
+                                "metal": "gold"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

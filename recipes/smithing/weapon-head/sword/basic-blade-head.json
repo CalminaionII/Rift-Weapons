@@ -1,0 +1,68 @@
+[
+    {
+        "code": "riftweapons:blade-head-basic-blackbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "blackbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "   ############"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-basic-blackbronze"
+        }
+    },
+    {
+        "code": "riftweapons:blade-head-basic-bismuthbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "   ############"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-basic-bismuthbronze"
+        }
+    },
+    {
+        "code": "riftweapons:blade-head-basic-tinbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "tinbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "   ############"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-basic-tinbronze"
+        }
+    }
+]

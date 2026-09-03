@@ -1,0 +1,23 @@
+[
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:shovel-handle"
+        },
+        "name": "riftweapons:shovel-handle-from-two-handles"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "file": "purposefulstorage:config/transformations/weapons/swordplaque.json",
+        "op": "add",
+        "path": "/rift-weapons:rift-sword-*",
+        "value": {
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "translation": {
+                "x": -0.6,
+                "y": -0.01,
+                "z": -0.05
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.1
+        },
+        "dependsOn": [
+            {
+                "modid": "purposefulstorage"
+            }
+        ]
+    },
+    {
+        "file": "purposefulstorage:config/transformations/weapons/swordpedestal.json",
+        "op": "add",
+        "path": "/rift-weapons:rift-sword-*",
+        "value": {
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            },
+            "translation": {
+                "x": -0.09,
+                "y": -0.01,
+                "z": -0.035
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 1.1
+        },
+        "dependsOn": [
+            {
+                "modid": "purposefulstorage"
+            }
+        ]
+    }
+]

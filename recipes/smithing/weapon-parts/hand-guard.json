@@ -1,0 +1,245 @@
+[
+    {
+        "code": "riftweapons:handguard-copper",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "copper"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "copper"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-blackbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "blackbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "blackbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-bismuthbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "bismuthbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-tinbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "tinbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "tinbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-iron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "iron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-steel",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "steel"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-meteoriciron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "meteoriciron"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "meteoriciron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-silver",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "silver"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "silver"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:handguard-gold",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "gold"
+            ]
+        },
+        "pattern": [
+            [
+                "#### ####",
+                "#### ####"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handguard",
+            "quantity": 2,
+            "attributes": {
+                "types": {
+                    "metal": "gold"
+                }
+            }
+        }
+    }
+]

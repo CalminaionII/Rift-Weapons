@@ -1,0 +1,398 @@
+[
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "copper",
+                    "handlemetal": "copper"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-copper"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "blackbronze",
+                    "handlemetal": "blackbronze"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-blackbronze"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "bismuthbronze",
+                    "handlemetal": "bismuthbronze"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-bismuthbronze"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "tinbronze",
+                    "handlemetal": "tinbronze"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-tinbronze"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "iron",
+                    "handlemetal": "iron"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-iron"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "steel",
+                    "handlemetal": "steel"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-steel"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "meteoriciron",
+                    "handlemetal": "meteoriciron"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-meteoriciron"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "silver"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "silver",
+                    "handlemetal": "silver"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-silver"
+    },
+    {
+        "ingredientPattern": "A,B,C",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handguard",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "C": {
+                "type": "item",
+                "code": "rift-weapons:metalbands",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "metal": "gold"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "handletier": "basic",
+                    "metal": "gold",
+                    "handlemetal": "gold"
+                }
+            }
+        },
+        "name": "riftweapons:fit-basic-gold"
+    }
+]

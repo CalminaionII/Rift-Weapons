@@ -1,0 +1,276 @@
+{
+    "code": "handguard",
+    "type": "item",
+    "maxStackSize": 8,
+    "shape": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/hand-guard2"
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-sword/weapon-parts/hand-guard2-inv"
+    },
+    "textures": {
+        "handlemetal": {
+            "base": "game:block/metal/ingot/copper"
+        }
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "quadrants",
+                "rotation": true,
+                "wallOffYByType": {
+                    "*": 1
+                },
+                "ctrlKey": true,
+                "selectionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.1,
+                    "z2": 1
+                },
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 0,
+                    "y2": 0,
+                    "z2": 0
+                }
+            }
+        },
+        {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "shape": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/hand-guard2"
+                    }
+                },
+                "textures": {
+                    "metal-*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/{metal}"
+                        }
+                    },
+                    "*": {
+                        "handlemetal": {
+                            "base": "game:block/metal/ingot/copper"
+                        }
+                    }
+                },
+                "name": {
+                    "metal-*": [
+                        "material-{metal}",
+                        " Hand Guard"
+                    ]
+                },
+                "shapeInventory": {
+                    "*": {
+                        "base": "rift-weapons:item/rift-sword/weapon-parts/hand-guard2-inv"
+                    }
+                }
+            }
+        }
+    ],
+    "guiTransformByType": {
+        "*": {
+            "rotation": {
+                "x": -30,
+                "y": 120,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.8,
+                "y": 0.4,
+                "z": 0.8
+            },
+            "scale": 6
+        }
+    },
+    "tpHandTransformByType": {
+        "*": {
+            "translation": {
+                "x": -0.95,
+                "y": -0.35,
+                "z": -0.65
+            },
+            "rotation": {
+                "x": 90,
+                "y": -12,
+                "z": -90
+            },
+            "scale": 1.2
+        }
+    },
+    "attributes": {
+        "groundStorageTransformByType": {
+            "*": {
+                "translation": {
+                    "x": -0.1,
+                    "y": -0.35,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -90
+                },
+                "origin": {
+                    "x": 0.5,
+                    "y": 0,
+                    "z": 0.5
+                },
+                "scale": 1.5
+            }
+        },
+        "onTongTransformByType": {
+            "*": {
+                "translation": {
+                    "x": -0.6,
+                    "y": -0.08,
+                    "z": -0.45
+                },
+                "rotation": {
+                    "x": -15,
+                    "y": -32,
+                    "z": 63
+                },
+                "scale": 1.2
+            }
+        },
+        "renderHeld": false,
+        "shape": {
+            "*": {
+                "base": "rift-weapons:item/rift-sword/weapon-parts/hand-guard2"
+            }
+        },
+        "textures": {
+            "metal-*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/{metal}"
+                }
+            },
+            "*": {
+                "handlemetal": {
+                    "base": "game:block/metal/ingot/copper"
+                }
+            }
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": {
+                "x": 0,
+                "y": 0.62,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0,
+                "y": 90,
+                "z": 90
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "scale": 6
+        }
+    },
+    "creativeInventoryStacksByType": {
+        "*": [
+            {
+                "tabs": [
+                    "general",
+                    "rift-weapons"
+                ],
+                "stacks": [
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "copper"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "blackbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "bismuthbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "tinbronze"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "iron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "steel"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "meteoriciron"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "silver"
+                            }
+                        }
+                    },
+                    {
+                        "type": "item",
+                        "code": "handguard",
+                        "attributes": {
+                            "types": {
+                                "metal": "gold"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

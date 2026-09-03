@@ -1,0 +1,89 @@
+[
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-*",
+                "name": "cloth",
+                "allowedVariants": [
+                    "black",
+                    "blue",
+                    "brown",
+                    "gray",
+                    "green",
+                    "orange",
+                    "pink",
+                    "plain",
+                    "purple",
+                    "red",
+                    "white",
+                    "yellow"
+                ]
+            }
+        },
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "base",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "cloth": "{cloth}"
+                }
+            }
+        },
+        "name": "riftweapons:handle-wrap-cloth"
+    },
+    {
+        "ingredientPattern": "AB",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:leather-normal-*",
+                "name": "leather",
+                "allowedVariants": [
+                    "black",
+                    "blue",
+                    "gray",
+                    "green",
+                    "orange",
+                    "pink",
+                    "plain",
+                    "purple",
+                    "red",
+                    "white",
+                    "yellow"
+                ]
+            }
+        },
+        "copyAttributesFrom": "A",
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:handle",
+            "attributes": {
+                "types": {
+                    "tier": "base",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "leather": "{leather}"
+                }
+            }
+        },
+        "name": "riftweapons:handle-wrap-leather"
+    }
+]

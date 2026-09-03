@@ -1,0 +1,245 @@
+[
+    {
+        "code": "riftweapons:flatguard-copper",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "copper"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "copper"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-blackbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "blackbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "blackbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-bismuthbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "bismuthbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-tinbronze",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "tinbronze"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "tinbronze"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-iron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "iron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-steel",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "steel"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-meteoriciron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "meteoriciron"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "meteoriciron"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-silver",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "silver"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "silver"
+                }
+            }
+        }
+    },
+    {
+        "code": "riftweapons:flatguard-gold",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "gold"
+            ]
+        },
+        "pattern": [
+            [
+                "####   ",
+                "#######",
+                "####   "
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:flatguard",
+            "attributes": {
+                "types": {
+                    "metal": "gold"
+                }
+            }
+        }
+    }
+]

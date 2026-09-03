@@ -1,0 +1,29 @@
+{
+    "code": "rift-weapons:rift-sword-*",
+    "head": "rift-weapons:blade-head-*",
+    "handle": "rift-weapons:handle",
+    "headKeys": [
+        "headgem"
+    ],
+    "handleKeys": [
+        "handletier",
+        "handlemetal",
+        "grip",
+        "wood",
+        "cloth",
+        "leather",
+        "gem"
+    ],
+    "pattern": "A,B",
+    "width": 1,
+    "height": 2,
+    "regrip": true,
+    "headCodeKeys": [
+        "tier",
+        "metal"
+    ],
+    "carryFromHead": [
+        "buffs",
+        "quality"
+    ]
+}

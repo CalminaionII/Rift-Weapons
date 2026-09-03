@@ -1,0 +1,198 @@
+[
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-copper",
+            "attributes": {
+                "types": {
+                    "metal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-copper"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-blackbronze",
+            "attributes": {
+                "types": {
+                    "metal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-blackbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "metal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-bismuthbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-tinbronze",
+            "attributes": {
+                "types": {
+                    "metal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-tinbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-iron",
+            "attributes": {
+                "types": {
+                    "metal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-iron"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-steel",
+            "attributes": {
+                "types": {
+                    "metal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-steel"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:shovel-head-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:shovel-handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-shovel-meteoriciron",
+            "attributes": {
+                "types": {
+                    "metal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-shovel-meteoriciron"
+    }
+]

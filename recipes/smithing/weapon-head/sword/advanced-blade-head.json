@@ -1,0 +1,68 @@
+[
+    {
+        "code": "riftweapons:blade-head-advanced-iron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "    # # # # # #"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-advanced-iron"
+        }
+    },
+    {
+        "code": "riftweapons:blade-head-advanced-steel",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "    # # # # # #"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-advanced-steel"
+        }
+    },
+    {
+        "code": "riftweapons:blade-head-advanced-meteoriciron",
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "meteoriciron"
+            ]
+        },
+        "pattern": [
+            [
+                "   ############",
+                "###############",
+                "    # # # # # #"
+            ]
+        ],
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:blade-head-advanced-meteoriciron"
+        }
+    }
+]

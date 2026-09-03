@@ -1,0 +1,196 @@
+{
+    "code": "shovel-head",
+    "type": "item",
+    "maxStackSize": 1,
+    "variantgroups": [
+        {
+            "code": "metal",
+            "states": [
+                "copper",
+                "blackbronze",
+                "bismuthbronze",
+                "tinbronze",
+                "iron",
+                "steel",
+                "meteoriciron"
+            ]
+        }
+    ],
+    "behaviorsByType": {
+        "@blade-head-.*-(iron|meteoriciron|steel)": [
+            {
+                "name": "Quenchable"
+            },
+            {
+                "name": "GroundStorable",
+                "properties": {
+                    "layout": "Halves",
+                    "rotation": true,
+                    "ctrlKey": true,
+                    "selectionBox": {
+                        "x1": 0,
+                        "y1": 0,
+                        "z1": 0,
+                        "x2": 1,
+                        "y2": 0.1,
+                        "z2": 1
+                    },
+                    "collisionBox": {
+                        "x1": 0,
+                        "y1": 0,
+                        "z1": 0,
+                        "x2": 0,
+                        "y2": 0,
+                        "z2": 0
+                    }
+                }
+            }
+        ],
+        "*": [
+            {
+                "name": "GroundStorable",
+                "properties": {
+                    "layout": "Halves",
+                    "rotation": true,
+                    "ctrlKey": true,
+                    "selectionBox": {
+                        "x1": 0,
+                        "y1": 0,
+                        "z1": 0,
+                        "x2": 1,
+                        "y2": 0.1,
+                        "z2": 1
+                    },
+                    "collisionBox": {
+                        "x1": 0,
+                        "y1": 0,
+                        "z1": 0,
+                        "x2": 0,
+                        "y2": 0,
+                        "z2": 0
+                    }
+                }
+            }
+        ]
+    },
+    "shape": {
+        "base": "rift-weapons:item/rift-shovel/head/shovel-head-master",
+        "selectiveElements": [
+            "shovel-head/*"
+        ]
+    },
+    "textures": {
+        "metal": {
+            "base": "game:block/metal/ingot/{metal}"
+        }
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "rift-weapons": [
+            "*"
+        ]
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": -95,
+            "y": 130,
+            "z": 16
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.45
+        },
+        "scale": 2.58
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -0.825,
+            "y": -0.45,
+            "z": -0.01
+        },
+        "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.05
+    },
+    "groundTransform": {
+        "translation": {
+            "x": -0.33,
+            "y": -0.53,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 180,
+            "y": 2,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 6
+    },
+    "attributes": {
+        "forgable": true,
+        "inForgeTransform": {
+            "translation": {
+                "x": -0.1,
+                "y": 0,
+                "z": 0.2
+            },
+            "rotation": {
+                "x": -7,
+                "y": 60,
+                "z": 0
+            },
+            "origin": {
+                "x": 0.2,
+                "y": 4,
+                "z": 0.2
+            },
+            "scale": 1
+        },
+        "groundStorageTransform": {
+            "translation": {
+                "x": 0,
+                "y": -1,
+                "z": -0.1
+            },
+            "rotation": {
+                "x": 90,
+                "y": 90,
+                "z": 90
+            },
+            "scale": 1.1
+        },
+        "onTongTransform": {
+            "translation": {
+                "x": -1,
+                "y": -0.115,
+                "z": -0.5
+            },
+            "rotation": {
+                "x": -91,
+                "y": 24,
+                "z": 81
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+            }
+        }
+    },
+    "shapeInventory": {
+        "base": "rift-weapons:item/rift-shovel/head/shovel-head-master-inv",
+        "selectiveElements": [
+            "shovel-head/*"
+        ]
+    }
+}

@@ -1,0 +1,2998 @@
+[
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-crude-copper"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-basic-blackbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-basic-bismuthbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-basic-tinbronze"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-advanced-iron"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-advanced-steel"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:assemble-any-advanced-meteoriciron"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-crude-copper"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "copper",
+                        "handlemetal": "copper"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-copper",
+            "attributes": {
+                "types": {
+                    "tier": "crude",
+                    "metal": "copper",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "copper"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-copper-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-blackbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "blackbronze",
+                        "handlemetal": "blackbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-blackbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "blackbronze",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "blackbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-blackbronze-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-bismuthbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "bismuthbronze",
+                        "handlemetal": "bismuthbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-bismuthbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "bismuthbronze",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "bismuthbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-bismuthbronze-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-basic-tinbronze"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "tinbronze",
+                        "handlemetal": "tinbronze"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-tinbronze",
+            "attributes": {
+                "types": {
+                    "tier": "basic",
+                    "metal": "tinbronze",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "tinbronze"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-tinbronze-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-iron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "iron",
+                        "handlemetal": "iron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-iron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "iron",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "iron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-iron-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-steel"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "steel",
+                        "handlemetal": "steel"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-steel",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "steel",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "steel"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-steel-advanced-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "wood",
+                        "wood": "oak"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "crude",
+                    "grip": "wood",
+                    "wood": "oak"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-crude-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "basic",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-basic-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "wood",
+                        "wood": "oak",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "advanced",
+                    "grip": "wood",
+                    "wood": "oak",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-advanced-wood-oak"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "crude",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-crude-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "basic",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-basic-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "cloth",
+                        "wood": "oak",
+                        "cloth": "plain",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "advanced",
+                    "grip": "cloth",
+                    "wood": "oak",
+                    "cloth": "plain",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-advanced-cloth-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "base",
+                        "handletier": "crude",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "crude",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-crude-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "basic",
+                        "handletier": "basic",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "basic",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-basic-leather-plain"
+    },
+    {
+        "ingredientPattern": "A,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "rift-weapons:blade-head-advanced-meteoriciron"
+            },
+            "B": {
+                "type": "item",
+                "code": "rift-weapons:handle",
+                "matchingType": "Exact",
+                "attributes": {
+                    "types": {
+                        "tier": "advanced",
+                        "handletier": "advanced",
+                        "grip": "leather",
+                        "wood": "oak",
+                        "leather": "plain",
+                        "metal": "meteoriciron",
+                        "handlemetal": "meteoriciron"
+                    }
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rift-weapons:rift-sword-meteoriciron",
+            "attributes": {
+                "types": {
+                    "tier": "advanced",
+                    "metal": "meteoriciron",
+                    "handletier": "advanced",
+                    "grip": "leather",
+                    "wood": "oak",
+                    "leather": "plain",
+                    "handlemetal": "meteoriciron"
+                }
+            },
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        },
+        "name": "riftweapons:example-sword-meteoriciron-advanced-leather-plain"
+    }
+]

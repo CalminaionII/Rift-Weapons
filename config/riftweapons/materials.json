@@ -1,0 +1,117 @@
+{
+    "headMetals": {
+        "crude": [
+            "copper"
+        ],
+        "basic": [
+            "blackbronze",
+            "bismuthbronze",
+            "tinbronze"
+        ],
+        "advanced": [
+            "iron",
+            "steel",
+            "meteoriciron"
+        ]
+    },
+    "partMetals": [
+        "copper",
+        "blackbronze",
+        "bismuthbronze",
+        "tinbronze",
+        "iron",
+        "steel",
+        "meteoriciron",
+        "silver",
+        "gold"
+    ],
+    "gripMaterials": {
+        "wood": [
+            "acacia",
+            "baldcypress",
+            "birch",
+            "ebony",
+            "kapok",
+            "larch",
+            "maple",
+            "oak",
+            "pine",
+            "purpleheart",
+            "redwood",
+            "walnut"
+        ],
+        "cloth": [
+            "black",
+            "blue",
+            "brown",
+            "gray",
+            "green",
+            "orange",
+            "pink",
+            "plain",
+            "purple",
+            "red",
+            "white",
+            "yellow"
+        ],
+        "leather": [
+            "black",
+            "blue",
+            "gray",
+            "green",
+            "orange",
+            "pink",
+            "plain",
+            "purple",
+            "red",
+            "white",
+            "yellow"
+        ]
+    },
+    "durability": {
+        "copper": 400,
+        "blackbronze": 850,
+        "bismuthbronze": 800,
+        "tinbronze": 700,
+        "iron": 1110,
+        "steel": 2620,
+        "meteoriciron": 1620,
+        "silver": 2620,
+        "gold": 2620
+    },
+    "gripDurability": {
+        "wood": 0,
+        "cloth": 25,
+        "leather": 50
+    },
+    "attackPower": {
+        "copper": 4.5,
+        "blackbronze": 5.5,
+        "bismuthbronze": 5,
+        "tinbronze": 5,
+        "iron": 6,
+        "steel": 7,
+        "meteoriciron": 7,
+        "silver": 6.5,
+        "gold": 6.5
+    },
+    "gripAttack": {
+        "wood": 0,
+        "cloth": 0.25,
+        "leather": 0.5
+    },
+    "handleDurabilityFraction": 0.2,
+    "handleTierFraction": {
+        "basic": 0.2,
+        "advanced": 0.25
+    },
+    "toolTier": {
+        "copper": 2,
+        "blackbronze": 3,
+        "bismuthbronze": 3,
+        "tinbronze": 3,
+        "iron": 4,
+        "steel": 5,
+        "meteoriciron": 4
+    }
+}
